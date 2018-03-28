@@ -1,0 +1,114 @@
+.footer {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding-top: 400px;
+  font-family: 'light';
+  @media screen and (max-width: 1200px) {
+    padding-top: 415px;
+  }
+  @media screen and (max-width: 990px) {
+    padding-top: 605px;
+  }
+  @media screen and (max-width: 700px) {
+    padding-top: 576px;
+  }
+  @media screen and (max-width: 630px) {
+    padding-top: 554px;
+  }
+  @media screen and (max-width: 510px) {
+    padding-top: 535px;
+  }
+  @media screen and (max-width: 490px) {
+    padding-top: 520px;
+  }
+  @media screen and (max-width: 480px) {
+    padding-top: 595px;
+  }
+  @media screen and (max-width: 460px) {
+    padding-top: 642px;
+  }
+  @media screen and (max-width: @width-desktop) {
+    padding-top: 525px;
+  }
+  @media screen and (max-width: 330px) {
+    padding-top: 575px;
+  }
+  @media screen and (max-width: 290px) {
+    padding-top: 620px;
+  }
+  &:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  .course-text {
+    margin-bottom: 37px;
+    padding: 0 55px;
+    @media screen and (max-width: @width-desktop) {
+      padding: 0;
+      text-align: center;
+    }
+    p {
+      font-size: 28px;
+      font-family: 'light';
+      @media screen and (max-width: 770px) {
+        font-size: 16px;
+      }
+    }
+
+  }
+  .course {
+    @media screen and (max-width: 1200px) {
+    .main-text-two:nth-child(4) {
+      display: none;
+    }
+  }
+    @media screen and (max-width: 990px) {
+      .main-text-two:nth-child(3) {
+        display: none;
+      }
+    }
+    @media screen and (max-width: 770px) {
+      .main-text-two:nth-child(2) {
+        display: none;
+      }
+    }
+    .main-text-two {
+      padding-right: 0;
+      @media screen and (max-width: 990px) {
+        padding: 0 0 0 10px;
+      }
+      .main-info {
+        padding: 0;
+        .img {
+          position: relative;
+        }
+        .logo {
+          top: 0;
+          left: 0;
+        }
+        .text {
+          padding-left: 8px;
+          margin-bottom: 10px;
+        }
+        .location {
+          padding-bottom: 13px;
+        }
+        .price {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          padding: 8px 12px;
+          background-color: black;
+          opacity: 0.5;
+          p {
+            color: white;
+          }
+        }
+      }
+    }
+    .logo {
+      max-width: 60px;
+    }
+  }
+}
